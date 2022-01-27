@@ -3,7 +3,7 @@ import '../models/product.dart';
 final dummyProducts = [
   Product(
     id: 'p1',
-    title: 'Camisa vermelha',
+    name: 'Camisa vermelha',
     description: 'Uma camisa vermelha bem bonita!',
     price: 29.99,
     imageUrl:
@@ -11,7 +11,7 @@ final dummyProducts = [
   ),
   Product(
     id: 'p2',
-    title: 'Calça',
+    name: 'Calça preta',
     description: 'Um par de calças bem legal!',
     price: 59.99,
     imageUrl:
@@ -19,7 +19,7 @@ final dummyProducts = [
   ),
   Product(
     id: 'p3',
-    title: 'Lenço amarelo',
+    name: 'Lenço amarelo',
     description: 'Quente e confortável - aquilo que você precisa para seu inferno.',
     price: 19.99,
     imageUrl:
@@ -27,7 +27,7 @@ final dummyProducts = [
   ),
   Product(
     id: 'p4',
-    title: 'Frigideira',
+    name: 'Frigideira',
     description: 'Prepare a refeição que você quiser.',
     price: 49.99,
     imageUrl:
